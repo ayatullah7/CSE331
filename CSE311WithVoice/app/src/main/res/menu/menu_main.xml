@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.saadman.cse311withtoast.MainActivity">
+    <item
+        android:id="@+id/ConnectToBluetooth"
+        android:checkable="false"
+        android:enabled="true"
+        android:icon="@android:drawable/stat_sys_data_bluetooth"
+        android:orderInCategory="100"
+        android:title="Connect To Appliance"
+        app:showAsAction="always" />
+</menu>
